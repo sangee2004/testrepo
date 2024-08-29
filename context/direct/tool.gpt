@@ -1,0 +1,12 @@
+context: ctx
+name: blue
+
+What is the secret code? State your answer beginning with "The secret code is"
+
+---
+name: ctx
+type: context
+
+#!sys.echo
+
+Your secret code is: BANANA

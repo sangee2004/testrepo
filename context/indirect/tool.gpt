@@ -1,0 +1,20 @@
+name: green
+share tools: yellow
+
+#!sys.echo
+
+green
+
+---
+name: yellow
+context: ctx
+
+What is the secret code? State your answer beginning with "The secret code is"
+
+---
+name: ctx
+Type: context
+
+#!sys.echo
+
+Your secret code is: GRAPEFRUIT
